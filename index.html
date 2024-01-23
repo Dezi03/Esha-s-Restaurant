@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Echa's Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="http://fonts.googlepis.com/css2?family=Vina">
+        <style>
+           
+            background{
+                color: Red;
+            }
+            body{
+                font-family: helvetica, sans-serif;
+                max-width: 600px;
+                margin: 0 auto;
+                
+            }
+           h3{
+                color: white;
+                padding: 10px;
+                text-align: justify;
+                line-height: 28px;
+                position: absolute;
+                margin: 70px 0 0px 0;
+           }
+            div{
+                height: 200px;
+                background: url(Assets/firstcourse.jpg);
+                position: relative;
+                margin: 40px 0 0 0;
+                border-radius:12px;
+            }
+            p{
+               color: rgba(255,255,255,1);
+            background: linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.4));
+            background: -webkit-linear-gradient(bottom,rgba(0,0,0,0.1),rgba(0,0,0,0.4));
+            background: -moz-linear-gradient(bottom, rgba(0,0,0,1),rgba(0,0,0,0.4));
+              padding: 10px;
+              text-align: justify;
+              line-height: 28px;
+              position: absolute;
+              bottom: 0;
+              margin: 0;
+            }
+            h1{
+                font-family: "Londrina Shadow",cursive;
+                font-size: 80px;
+                text-align: center;
+                
+            }
+            h2{
+                font-family: "Londrina Shadow",cursive;
+                font-size: 30px;
+                text-align: center;
+            }
+            
+            .price{
+                float: right;
+                margin: 0 auto;
+            }
+            .first{
+              background: url(Assets/firstcourse.jpg);
+            }
+            .second{
+              background: url(Assets/secondcourse.jpg);  
+            }
+            .secondcourse{
+                margin: 60px 0 0px 0;
+            }
+            .third{
+              background: url(Assets/dessertcourse.jpg);  
+            }
+            @media (max-width:500px)
+            {
+                body{
+                    background: red;
+                }
+                h1{
+                    font-size: 50px;
+                }
+            }
+            
+        </style>
+    </head>
+    <body>
+    
+        <h1>  Esha's Restuarant</h1>
+        <h2>A New York City eatery</h2>
+        <div class="first">
+            <h3>Welsh onion soko <span class="price">£14</span></h3>
+        <p> Mustard sieraa leona bologi kale chard beet greens black-eyed pea sorrel
+            amaranth garlic tigernut spring onion summer purslane asparagus lentil.<p>
+           
+        </div>
+        <div class="second">
+            <h3 class="secondcourse">pastrami boudoni tongue <span class="price">£22</span></h3>
+                <p>Tri-tip capicola kielbasa salami brisket chicken rump strip steak
+                   drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl
+                   meatloaf pork loin prosciutto bresaola<p>
+                    
+        </div>
+        <div class="third">
+            <h3> fruitcake marzipan pudding drages<span class="price">£8</span></h3>
+                <p>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear 
+                    claw ice cream candy canes.</p>
+               
+        </div>
+    </body>
+    
+</html>
